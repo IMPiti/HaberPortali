@@ -1,6 +1,23 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+    "users": [
+      { "id": 1,
+        "username": "ahmet",
+        "password": "123",
+        "mail": "ahmet@mail.com",
+        "regdate": "2.12.22",
+        "editdate": "3.12.22",
+        "NameSname": "Ahmet Hacibalgil",
+        "admin":"1"
+      },
+      { "id": 2,
+      "username": "esi",
+      "password": "123",
+      "mail": "esi@mail.com",
+      "regdate": "2.12.22",
+      "editdate": "3.12.22",
+      "NameSname": "Esi",
+      "admin":"0"
+      }
     ],
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }
